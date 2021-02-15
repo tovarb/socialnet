@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Net</title>
+    <link rel="stylesheet" href="./css/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script href="https://kit.fontawesome.com/b13b4cce49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="container-fluid">
+        <div class="row">
+            <i> <img class="logo mt-1" src="./assets/images/logo-2.png" alt="logo-social-net"> </i>
+            <div class="mt-2 search-container">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="menu mt-2">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item hide-on-mobile">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item hide-on-mobile">
+                        <a class="nav-link active" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item hide-on-mobile">
+                        <a class="nav-link active" href="#">Messages</a>
+                    </li>
+                    <li class="nav-item hide-on-mobile">
+                        <a class="nav-link active" href="./index.html">Log Out</a>
+                    </li>
+                    <li class="nav-item burger-menu-container">
+                        <a class="nav-link active" href="#"><img class="burger-menu"
+                                src="./assets/images/burger-menu.png" alt="burger-menu"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="row">
+        <!--Left Section-->
+        <div class="opportunities-container col-md-3 col-sm-12">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab"
+                    aria-controls="home">Show me opportunities
+                    by area</a>
+                <a class="list-group-item list-group-item-action work-areas" data-toggle="list" href="#"
+                    role="tab"><button type="button" class="btn btn-outline-primary mb-2">Design
+                        UX/UI</button> <br><button type="button" class="btn btn-outline-info">Frontend
+                        Development</button></a>
+                <a class="list-group-item list-group-item-action work-areas" data-toggle="list" href="#"
+                    role="tab"><button type="button" class="btn btn-outline-warning mb-2">Software
+                        Development</button><br><button type="button" class="btn btn-outline-secondary">Mobile
+                        Development</button></a>
+                <a class="list-group-item list-group-item-action work-areas" data-toggle="list" href="#"
+                    role="tab"><button type="button" class="btn btn-outline-secondary">Business</button></a>
+                <a class="list-group-item list-group-item-action work-areas" data-toggle="list" href="#" role="tab">
+                    <button type="button" class="btn btn-outline-success">Marketing</button></a>
+                <a class="list-group-item list-group-item-action work-areas" data-toggle="list" href="#"
+                    role="tab"><button type="button" class="btn btn-outline-danger">Data
+                        Science</button></a>
+            </div>
+        </div>
+        <!--Center Section-->
+        <div class="col-md-6 col-sm-12">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <form id="first-textarea">
+                        <div class="form-group">
+                            <textarea class="form-control exampleFormControlTextarea" rows="4" cols="60"
+                                placeholder="Start a post"></textarea>
+                            <br>
+                            <button id="publish" type="button" class="btn btn-primary">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Posts Section-->
+            <section id="newsfeed-section" class="newsfeed-info">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><img class="profile" src="./assets/images/logo-startup-5.png" alt="zammeli-logo">Looking
+                            for a Full-Stack
+                            Engineer
+                        </h5>
+                        <p>Zammeliy is the global leader in digital employee experience management. Our products allow
+                            enterprises to create highly productive digital workplaces for their employees by delivering
+                            optimal end-user experiences. Through a unique combination of real-time analytics,
+                            automation and employee feedback, Nexthink gives IT teams the insight they need to empower
+                            and even delight people at work... <a href="#">https://goo.gl/KDih4j</a></p>
+                        <span class="badge bg-warning text-dark">Software Development</span>
+                        <br><br>
+                        <img class="icons-cards" src="./assets/images/like.png" alt="like">
+                        <img class="icons-cards" src="./assets/images/comment.png" alt="comment">
+                        <img class="icons-cards" src="./assets/images/share.png" alt="share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5><img class="profile" src="./assets/images/logo-startup-2.PNG" alt="docker-logo">Docker
+                            Community All-Hands
+                        </h5>
+                        <p>Join us for our first ever Docker Community All-Hands. This one-hour event will bring
+                            together Docker staff, contributors and users to share business and product updates, demos
+                            of new features and integrations, recognize community contributions, and give everyone a
+                            chance to ask questions to Docker’s leadership team...</p>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/-A9jp-R_mBc"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <br><br>
+                        <span class="badge bg-warning text-dark">Software Development</span>
+                        <br><br>
+                        <img class="icons-cards" src="./assets/images/like.png" alt="like">
+                        <img class="icons-cards" src="./assets/images/comment.png" alt="comment">
+                        <img class="icons-cards" src="./assets/images/share.png" alt="share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5><img class="profile" src="./assets/images/logo-startup-1.PNG" alt="Polly-logo">Polly
+                        </h5>
+                        <p>We are looking for a Marketing Specialist. Send message for more information 👉📩</p>
+                        <span class="badge bg-success">Marketing</span>
+                        <br><br>
+                        <img class="icons-cards" src="./assets/images/like.png" alt="like">
+                        <img class="icons-cards" src="./assets/images/comment.png" alt="comment">
+                        <img class="icons-cards" src="./assets/images/share.png" alt="share">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!--Right Section-->
+        <div class="hiring-container col-md-3 col-sm-12">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action " data-toggle="list" href="#" role="tab">Hiring now</a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <img class="profile" src="./assets/images/logo-startup-1.PNG" alt="polly-logo">
+                        <h5 id="follow1" class="mb-1">Polly <br> <span style="font-size: 15px;">Software
+                                Developer</span></h5>
+                    </div>
+                    <button id="btn-follow1" type="button" class="btn btn-primary btn-sm">Follow</button>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <img class="profile" src="./assets/images/logo-startup-2.png" alt="logo-docker">
+                        <h5 id="follow2" class="mb-1">Docker <br> <span style="font-size: 15px;">Backend
+                                Developer</span>
+                        </h5>
+                    </div>
+                    <button id="btn-follow2" type="button" class="btn btn-primary btn-sm">Follow</button>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <img class="profile" src="./assets/images/logo-startup-3.png" alt="puffin-logo">
+                        <h5 id="follow3" class="mb-1">Puffin <br> <span style="font-size: 15px;">Frontend
+                                Developer</span></h5>
+                    </div>
+                    <button id="btn-follow3" type="button" class="btn btn-primary btn-sm">Follow</button>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <img class="profile" src="./assets/images/logo-startup-4.png" alt="tuna-logo">
+                        <h5 id="follow4" class="mb-1">Tuna <br> <span style="font-size: 15px;">Marketing
+                                Specialist</span>
+                        </h5>
+                    </div>
+                    <button id="btn-follow4" type="button" class="btn btn-primary btn-sm">Follow</button>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <img class="profile" src="./assets/images/logo-startup-5.png" alt="logo-zammeliy">
+                        <h5 id="follow5" class="mb-1">Zammeliy <br> <span style="font-size: 15px;">Full-Stack
+                                Engineer</span></h5>
+                    </div>
+                    <button id="btn-follow5" type="button" class="btn btn-primary btn-sm">Follow</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer class="text-center">
+        <p class="copyright">Copyright© Social Net 2021</p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/assets/bootstrap.min.js"></script>
+</body>
+
+</html>

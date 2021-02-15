@@ -1,0 +1,156 @@
+/* General */
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navigation*/
+
+nav {
+  height: auto;
+  background-color: #ffffff;
+  color: #101010;
+  padding: 10px 0px;
+}
+
+img.logo {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.menu {
+  position: absolute;
+  right: 0px;
+}
+
+.menu li {
+  display: inline-block;
+  height: auto;
+  padding: 0px 15px;
+}
+
+.menu a {
+  color: #101010;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #138496;
+}
+
+.search-container {
+  margin-left: 30%;
+}
+
+/*Left Section*/
+div.opportunities-container .list-group {
+  margin-left: 20px;
+}
+
+/*Right Section*/
+
+#btn-follow1,
+#btn-follow2,
+#btn-follow3,
+#btn-follow4,
+#btn-follow5 {
+  background-color: #2dbebb;
+  color: white;
+  border: #2dbebb;
+}
+
+div.hiring-container .list-group {
+  margin-right: 20px;
+}
+
+/*Center Section*/
+
+img.profile {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#publish {
+  background-color: #2dbebb;
+  color: white;
+  border: #2dbebb;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.icons-cards {
+  margin: 10px;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #d8d8d8;
+  color: #101010;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+p.copyright {
+  padding: 25px;
+  margin-bottom: 0px;
+}
+
+li.burger-menu-container {
+  display: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1184px) {
+  .search-container {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .search-container {
+    margin-left: 0%;
+  }
+
+  .menu li {
+    padding: 0px 5px;
+  }
+
+  div.opportunities-container div.list-group a.work-areas button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  div.opportunities-container div.list-group a.work-areas button {
+    font-size: 16px;
+  }
+
+  div.opportunities-container .list-group,
+  #first-textarea,
+  #newsfeed-section,
+  div.hiring-container .list-group {
+    margin: 20px 30px;
+  }
+
+  .search-container,
+  li.hide-on-mobile {
+    display: none;
+  }
+
+  li.burger-menu-container {
+    display: block;
+  }
+}
